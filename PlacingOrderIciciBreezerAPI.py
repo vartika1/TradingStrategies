@@ -4,9 +4,10 @@ from datetime import datetime
 import urllib
 import time
 
-your_api_key = "9G1N1V72Jb489i3n90369Xr7w21209~3"
-your_secret_key = "76xX90Y680H397w6)R995BT5_332*391"
-your_api_session = "41115678"
+#Enter your keys
+your_api_key = ""
+your_secret_key = ""
+your_api_session = ""
 
 class OptionsTrading:
     def __init__(self, user_code, user_right, user_strike_price, user_quantity, user_expiry_date):
